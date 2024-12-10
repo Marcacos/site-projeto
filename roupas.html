@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index-lançamentos.css">
+    <link rel="shortcut icon" href="heavenshoeslg.png" type="image/x-icon">
+    <title>Heaven Shoes</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <h1 id="h1">heaven shoes</h1>
+                <form class="d-flex" id="form-search" role="search" onsubmit="filterProducts(event)">
+                    <input id="escreva" class="form-control me-2" type="text" placeholder="Buscar por marca..." aria-label="text">
+                    <button class="btn btn-outline-success" id="btn-search" type="submit">
+                        <img src="https://lh6.googleusercontent.com/proxy/-t9TeJyJ7LUbs00PqBVXWkXPMd3nEHatZQspCgyQcI2VtAINnNf2nfVOHCAWsHnP_GtFdSW97QirbBK8mu_8pO00nu4E_Fm7xXiQi47GXqv1sacW4sR5RnWDq8RjrpaJVRtydL735nSY__RszT6WTnlycXPfDaViFNlK1yXvobIW" alt="Imagem de uma lupa" style="width: 1.5rem;">
+                    </button>
+                </form>
+            </div>
+            <br>
+            <ul>
+                <a class="link-nav" href="heaven shoes.html"><li>Menu</li></a>
+                <a class="link-nav" href="lançamentos.html"><li>Lançamentos</li></a>
+                <a class="link-nav" href="tenis.html"><li>Tênis</li></a>
+                <a class="link-nav" href="roupas.html"><li>Roupas</li></a>
+                <a class="link-nav" href="contato.html"><li>Contato</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section class="container mt-5">
+        <h2 class="text-center mb-4" id="h2">Roupas</h2>
+        <div class="row">
+            <article class="col-md-3 col-sm-6 mb-4" data-brand="nike">
+                <section class="product-card text-center p-3 border rounded">
+                    <figure class="product-image mb-3">
+                        <img src="https://static.prospin.com.br/media/catalog/product/d/r/dr8064-412-camiseta-nike-nsw-tee-heat-masc-azul.jpg" class="img-fluid">
+                    </figure>
+                    <header>
+                        <h3 class="product-title">Camiseta Nike Tee Masculina Azul</h3>
+                    </header>
+                    <p class="product-price">R$ 212,90</p>
+                    <p class="product-installment">até 3x de R$ 72,90 sem juros</p>
+                    <p class="product-payment">ou R$ 220,00 via Pagamento na entrega</p>
+                </section>
+            </article>
+
+            <article class="col-md-3 col-sm-6 mb-4" data-brand="sufgang">
+                <section class="product-card text-center p-3 border rounded">
+                    <figure class="product-image mb-3">
+                        <img src="https://images.tcdn.com.br/img/img_prod/680475/camiseta_sufgang_004_spy_yellow_12507_1_73257f0102af15234ddb6f54f97be489.jpg" alt="Camiseta Sufgang Spy Yellow" class="img-fluid">
+                    </figure>
+                    <header>
+                        <h3 class="product-title">Camiseta Sufgang Spy Yellow</h3>
+                    </header>
+                    <p class="product-price">R$ 99,99</p>
+                    <p class="product-installment">até 2x de R$ 52,80 sem juros</p>
+                    <p class="product-payment">ou R$ 119,99 via Pagamento na entrega</p>
+                </section>
+            </article>
+
+            <article class="col-md-3 col-sm-6 mb-4" data-brand="oakley">
+                <section class="product-card text-center p-3 border rounded">
+                    <figure class="product-image mb-3">
+                        <img src="https://centralsurf.vteximg.com.br/arquivos/ids/328927-1000-1000/Camiseta-Estampada-Oakley-O-new-Tee-0.jpg?v=637516988116330000" alt="Camiseta Estampada Oakley" class="img-fluid">
+                    </figure>
+                    <header>
+                        <h3 class="product-title">Camiseta Estampada Oakley</h3>
+                    </header>
+                    <p class="product-price">R$ 89,90</p>
+                    <p class="product-installment">até 2x de R$ 46,70 sem juros</p>
+                    <p class="product-payment">ou R$ 92,80 via Pagamento na entrega</p>
+                </section>
+            </article>
+
+            
+         </article>
+
+         <article class="col-md-3 col-sm-6 mb-4" data-brand="adidas">
+            <section class="product-card text-center p-3 border rounded">
+                <figure class="product-image mb-3">
+                    <img src="https://ostoresneakers.vteximg.com.br/arquivos/ids/221082-1000-1000/camiseta-adidas-trefoil-classic-adicolor-azul-ik4037-0.jpg?v=638380898279730000" alt="Camiseta Adidas Trefoil Classic" class="img-fluid">
+                </figure>
+                <header>
+                    <h3 class="product-title">Camiseta Adidas Trefoil Classic Azul</h3>
+                </header>
+                <p class="product-price">R$ 159,80</p>
+                <p class="product-installment">até 2x de R$ 80,00 sem juros</p>
+                <p class="product-payment">ou R$ 165,90 via Pagamento na entrega</p>
+            </section>
+        </article>
+
+        <article class="col-md-3 col-sm-6 mb-4" data-brand="nike">
+            <section class="product-card text-center p-3 border rounded">
+                <figure class="product-image mb-3">
+                    <img src="https://static.kapiva.com.br/public/kapiva/imagens/produtos/camiseta-nike-sb-manga-curta-logo-preta-6570b34e6b4f5.jpg" alt="Camiseta Nike SB Manga Curta" class="img-fluid">
+                </figure>
+                <header>
+                    <h3 class="product-title">Camiseta Nike SB Manga Curta Preta</h3>
+                </header>
+                <p class="product-price">R$ 94,99</p>
+                <p class="product-installment">até 2x de R$ 48,80 sem juros</p>
+                <p class="product-payment">ou R$ 102,90 via Pagamento na entrega</p>
+            </section>
+        </article>
+
+        <article class="col-md-3 col-sm-6 mb-4" data-brand="Hoshwear">
+            <section class="product-card text-center p-3 border rounded">
+                <figure class="product-image mb-3">
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ41U75VV0RVv_Y-O1JWw86m3o2Jpg0ZLKPmIceJ3OMGuQ0MWj6eGYBSRkbw7RscpN8-CfHp2A6CfRy_5lJDN9DutLkctY8SUiTKjXVR8Zp1TATMmcKz9pjyg&usqp=CAE" class="img-fluid">
+                </figure>
+                <header>
+                    <h3 class="product-title">Camiseta Masculina Hoshwear Global Distortion Off White</h3>
+                </header>
+                <p class="product-price">R$ 129,90</p>
+                <p class="product-installment">ou 3x de R$ 43,30 Sem juros</p>
+                <p class="product-payment">ou R$ 120,00 via Pagamento Pix</p>
+            </section>
+        </article>
+
+        <article class="col-md-3 col-sm-6 mb-4" data-brand="high">
+            <section class="product-card text-center p-3 border rounded">
+                <figure class="product-image mb-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRmpQrYg9IFsQQl1dtVIXv9oeoC2v5LyZYtR0GtM5dlMKBB7mWqMYphhBkMpfVz6OtNcQxaYfoFYa161bhEz94ExoaeiRH5R6fZmdyaeOiHFwD4R04W96mQ&usqp=CAE" class="img-fluid">
+                </figure>
+                <header>
+                    <h3 class="product-title">Camiseta High Company Arriba - Marrom</h3>
+                </header>
+                <p class="product-price">R$ 199,90</p>
+                <p class="product-installment">ou 3x de R$ 63,30 Sem juros</p>
+                <p class="product-payment">ou R$ 180,00 via Pagamento Pix</p>
+            </section>
+        </article>
+        </div>
+            
+                    
+    <script>
+        function filterProducts(event) {
+            event.preventDefault();
+            const query = document.getElementById('escreva').value.trim().toLowerCase();
+            const products = document.querySelectorAll('article'); // Corrigido para buscar todos os artigos
+
+            products.forEach(product => {
+                const brand = product.getAttribute('data-brand').toLowerCase();
+                if (brand.includes(query)) {
+                    product.style.display = ''; // Mostra o produto
+                } else {
+                    product.style.display = 'none'; // Esconde o produto
+                }
+            });
+        }
+    </script>
+</body>
+</html>

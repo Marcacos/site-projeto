@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index-lançamentos.css">
+    <link rel="shortcut icon" href="heavenshoeslg.png" type="image/x-icon">
+    <title>Heaven Shoes</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <h1 id="h1">heaven shoes</h1>
+                <form class="d-flex" id="form-search" role="search" onsubmit="filterProducts(event)">
+                    <input id="escreva" class="form-control me-2" type="text" placeholder="Buscar por marca..." aria-label="text">
+                    <button class="btn btn-outline-success" id="btn-search" type="submit">
+                        <img src="https://lh6.googleusercontent.com/proxy/-t9TeJyJ7LUbs00PqBVXWkXPMd3nEHatZQspCgyQcI2VtAINnNf2nfVOHCAWsHnP_GtFdSW97QirbBK8mu_8pO00nu4E_Fm7xXiQi47GXqv1sacW4sR5RnWDq8RjrpaJVRtydL735nSY__RszT6WTnlycXPfDaViFNlK1yXvobIW" alt="Imagem de uma lupa" style="width: 1.5rem;">
+                    </button>
+                </form>
+            </div>
+            <br>
+            <ul>
+                <a class="link-nav" href="heaven shoes.html"><li>Menu</li></a>
+                <a class="link-nav" href="lançamentos.html"><li>Lançamentos</li></a>
+                <a class="link-nav" href="tenis.html"><li>Tênis</li></a>
+                <a class="link-nav" href="roupas.html"><li>Roupas</li></a>
+                <a class="link-nav" href="contato.html"><li>Contato</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section class="container mt-5">
+        <h2 class="text-center mb-4" id="h2">Lançamentos</h2>
+        <div class="row">
+            <article class="col-md-3 col-sm-6 mb-4" data-brand="nike">
+                <section class="product-card text-center p-3 border rounded">
+                    <figure class="product-image mb-3">
+                        <img src="https://static.prospin.com.br/media/catalog/product/d/r/dr8064-412-camiseta-nike-nsw-tee-heat-masc-azul.jpg" class="img-fluid">
+                    </figure>
+                    <header>
+                        <h3 class="product-title">Camiseta Nike Tee Masculina Azul</h3>
+                    </header>
+                    <p class="product-price">R$ 212,90</p>
+                    <p class="product-installment">até 3x de R$ 72,90 sem juros</p>
+                    <p class="product-payment">ou R$ 220,00 via Pagamento na entrega</p>
+                </section>
+            </article>
+            <article class="col-md-3 col-sm-6 mb-4" data-brand="fila">
+                <section class="product-card text-center p-3 border rounded">
+                    <figure class="product-image mb-3">
+                        <img src="https://esportelegal.fbitsstatic.net/img/p/tenis-fila-heating-masculino-100516/352000-1.jpg?w=800&h=800&v=no-change&qs=ignore" alt="Tênis Fila Heating Masculino" class="img-fluid-v3">
+                        <img src="https://imgcentauro-a.akamaihd.net/1366x1366/M0PDT801.jpg" alt="Tênis Fila Heating Masculino" class="img-fluid-v4">
+                    </figure>
+                    <header>
+                        <h3 class="product-title">Tênis Fila Heating Masculino</h3>
+                    </header>
+                    <p class="product-price">R$ 366,99</p>
+                    <p class="product-installment">até 3x de R$ 123,33 sem juros</p>
+                    <p class="product-payment">ou R$ 371,49 via Pagamento na entrega</p>
+                </section>
+            </article>
+            <article class="col-md-3 col-sm-6 mb-4" data-brand="adidas">
+                <section class="product-card text-center p-3 border rounded">
+                    <figure class="product-image mb-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGiGsSHUeaK9r05IcQPd9Q1pvGgx9ljDPKwg&s" alt="Tênis Adidas Racer TR23 Feminino" class="img-fluid-v5">
+                        <img src="https://imgcentauro-a.akamaihd.net/1300x1300/M105D63BA2.jpg" alt="Tênis Adidas Racer TR23 Feminino" class="img-fluid-v6">
+                    </figure>
+                    <header>
+                        <h3 class="product-title">Tênis Adidas Racer TR23 Masculino</h3>
+                    </header>
+                    <p class="product-price">R$ 389,90</p>
+                    <p class="product-installment">até 4x de R$ 98,00 sem juros</p>
+                    <p class="product-payment">ou R$ 399,90 via Pagamento na entrega</p>
+                </section>
+            </article>
+            <article class="col-md-3 col-sm-6 mb-4" data-brand="volt">
+                <section class="product-card text-center p-3 border rounded">
+                    <figure class="product-image mb-3">
+                        <img src="https://cdn.bnws3.com.br/b2online.com.br/image/cache/data/produtos/volt/masculino/tenis-volt-esportivo-masculino-cinza---vermelho-10639-24-03-28-1200x1200.jpg" alt="Tênis Volt Esportivo Masculino" class="img-fluid-v7">
+                        <img src="https://cdn.bnws3.com.br/b2online.com.br/image/cache/data/produtos/volt/masculino/tenis-volt-esportivo-masculino-cinza---vermelho-10639-24-03-28-01-1200x1200.jpg" alt="Tênis Volt Esportivo Masculino" class="img-fluid-v8">
+                    </figure>
+                    <header>
+                        <h3 class="product-title">Tênis Volt Esportivo Masculino</h3>
+                    </header>
+                    <p class="product-price">R$ 99,99</p>
+                    <p class="product-installment">até 2x de R$ 45,00 sem juros</p>
+                    <p class="product-payment">ou R$ 119,99 via Pagamento na entrega</p>
+                </section>
+            </article>
+            <article class="col-md-3 col-sm-6 mb-4" data-brand="new balance">
+                <section class="product-card text-center p-3 border rounded">
+                    <figure class="product-image mb-3">
+                        <img src="https://i.ebayimg.com/images/g/ETgAAOSwbnBnERK3/s-l1200.jpg" alt="Tênis New Balance 480 cinza" class="img-fluid-v3">
+                        <img src="https://limitedresell.com/15254-full_default/new-balance-480-arctic-grey.jpg" alt="Tênis New Balance 480 cinza" class="img-fluid-v4">
+                    </figure>
+                    <header>
+                        <h3 class="product-title">Tênis New Balance 480</h3>
+                    </header>
+                    <p class="product-price">R$ 366,99</p>
+                    <p class="product-installment">até 3x de R$ 123,33 sem juros</p>
+                    <p class="product-payment">ou R$ 371,49 via Pagamento na entrega</p>
+                </section>
+            </article>
+            <article class="col-md-3 col-sm-6 mb-4" data-brand="mizuno">
+                <section class="product-card text-center p-3 border rounded">
+                    <figure class="product-image mb-3">
+                        <img src="https://esportelegal.fbitsstatic.net/img/p/tenis-mizuno-wave-legend-2-masculino-108749/382146-1.jpg?w=800&h=800&v=no-change&qs=ignore" alt="Tênis Mizuno wave legend 2 masculino" class="img-fluid-v5">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-8dAd2NutBakQdwCwXP6jbx7aafd7YGsgzNvURzRTGgezDXbBd7dktN4DE79f-RuTe1M&usqp=CAU" alt="Tênis Mizuno wave legend 2 masculino" class="img-fluid-v6">
+                    </figure>
+                    <header>
+                        <h3 class="product-title">Tênis Mizuno Wave Legend 2 Masculino</h3>
+                    </header>
+                    <p class="product-price">R$ 389,90</p>
+                    <p class="product-installment">até 4x de R$ 98,00 sem juros</p>
+                    <p class="product-payment">ou R$ 399,90 via Pagamento na entrega</p>
+                </section>
+            </article>
+            <article class="col-md-3 col-sm-6 mb-4" data-brand="puma">
+                <section class="product-card text-center p-3 border rounded">
+                    <figure class="product-image mb-3">
+                        <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/396330/03/fnd/BRA/w/1000/h/1000/fmt/png" alt="tênis Puma Caven 2.0" class="img-fluid-v7">
+                        <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/396330/03/sv01/fnd/BRA/w/1000/h/1000/fmt/png" alt="tênis Puma Caven 2.0" class="img-fluid-v8">
+                    </figure>
+                    <header>
+                        <h3 class="product-title">Tênis Puma Caven 2.0</h3>
+                    </header>
+                    <p class="product-price">R$ 399,90</p>
+                    <p class="product-installment">até 3x de R$ 101,90 sem juros</p>
+                    <p class="product-payment">ou R$ 405,80 via Pagamento na entrega</p>
+                </section>
+            </article>
+            <article class="col-md-3 col-sm-6 mb-4" data-brand="olimpykus">
+                <section class="product-card text-center p-3 border rounded">
+                    <figure class="product-image mb-3">
+                        <img src="https://vulcabras.vtexassets.com/arquivos/ids/229092-800-800?v=637795932393530000&width=800&height=800&aspect=true" alt="Tênis Olimpykus Proof 3" class="img-fluid-v3">
+                        <img src="https://images.tcdn.com.br/img/img_prod/616188/tenis_olympikus_masculino_proof_2_preto_chumbo_evasense_trabalho_faculdade_2679_2_493ec8672bfab57a63869e3bab45b274.jpg" class="img-fluid-v4" alt="Tênis Olimpykus Proof 3">
+                    </figure>
+                    <header>
+                        <h3 class="product-title">Tênis Olimpykus Proof 2 Masculino</h3>
+                    </header>
+                    <p class="product-price">R$ 366,99</p>
+                    <p class="product-installment">até 3x de R$ 123,33 sem juros</p>
+                    <p class="product-payment">ou R$ 371,49 via Pagamento na entrega</p>
+                </section>
+            </article>
+            <article class="col-md-3 col-sm-6 mb-4" data-brand="nike">
+                <section class="product-card text-center p-3 border rounded">
+                    <figure class="product-image mb-3">
+                        <img src="https://static.kapiva.com.br/public/kapiva/imagens/produtos/camiseta-nike-sb-manga-curta-logo-preta-6570b34e6b4f5.jpg" alt="Camiseta Nike SB Manga Curta" class="img-fluid">
+                    </figure>
+                    <header>
+                        <h3 class="product-title">Camiseta Nike SB Manga Curta Preta</h3>
+                    </header>
+                    <p class="product-price">R$ 94,99</p>
+                    <p class="product-installment">até 2x de R$ 48,80 sem juros</p>
+                    <p class="product-payment">ou R$ 102,90 via Pagamento na entrega</p>
+                </section>
+            </article>
+            <article class="col-md-3 col-sm-6 mb-4" data-brand="adidas">
+                <section class="product-card text-center p-3 border rounded">
+                    <figure class="product-image mb-3">
+                        <img src="https://ostoresneakers.vteximg.com.br/arquivos/ids/221082-1000-1000/camiseta-adidas-trefoil-classic-adicolor-azul-ik4037-0.jpg?v=638380898279730000" alt="Camiseta Adidas Trefoil Classic" class="img-fluid">
+                    </figure>
+                    <header>
+                        <h3 class="product-title">Camiseta Adidas Trefoil Classic Azul</h3>
+                    </header>
+                    <p class="product-price">R$ 159,80</p>
+                    <p class="product-installment">até 2x de R$ 80,00 sem juros</p>
+                    <p class="product-payment">ou R$ 165,90 via Pagamento na entrega</p>
+                </section>
+            </article>
+            <article class="col-md-3 col-sm-6 mb-4" data-brand="oakley">
+                <section class="product-card text-center p-3 border rounded">
+                    <figure class="product-image mb-3">
+                        <img src="https://centralsurf.vteximg.com.br/arquivos/ids/328927-1000-1000/Camiseta-Estampada-Oakley-O-new-Tee-0.jpg?v=637516988116330000" alt="Camiseta Estampada Oakley" class="img-fluid">
+                    </figure>
+                    <header>
+                        <h3 class="product-title">Camiseta Estampada Oakley O-new Tee</h3>
+                    </header>
+                    <p class="product-price">R$ 89,90</p>
+                    <p class="product-installment">até 2x de R$ 46,70 sem juros</p>
+                    <p class="product-payment">ou R$ 92,80 via Pagamento na entrega</p>
+                </section>
+            </article>
+            <article class="col-md-3 col-sm-6 mb-4" data-brand="sufgang">
+                <section class="product-card text-center p-3 border rounded">
+                    <figure class="product-image mb-3">
+                        <img src="https://images.tcdn.com.br/img/img_prod/680475/camiseta_sufgang_004_spy_yellow_12507_1_73257f0102af15234ddb6f54f97be489.jpg" alt="Camiseta Sufgang Spy Yellow" class="img-fluid">
+                    </figure>
+                    <header>
+                        <h3 class="product-title">Camiseta Sufgang Spy Yellow</h3>
+                    </header>
+                    <p class="product-price">R$ 99,99</p>
+                    <p class="product-installment">até 2x de R$ 52,80 sem juros</p>
+                    <p class="product-payment">ou R$ 119,99 via Pagamento na entrega</p>
+                </section>
+            </article>
+        </div>
+    </section>
+    <script>
+        function filterProducts(event) {
+            event.preventDefault();
+            const query = document.getElementById('escreva').value.trim().toLowerCase();
+            const products = document.querySelectorAll('article'); // Corrigido para buscar todos os artigos
+
+            products.forEach(product => {
+                const brand = product.getAttribute('data-brand').toLowerCase();
+                if (brand.includes(query)) {
+                    product.style.display = ''; // Mostra o produto
+                } else {
+                    product.style.display = 'none'; // Esconde o produto
+                }
+            });
+        }
+    </script>
+</body>
+</html>
